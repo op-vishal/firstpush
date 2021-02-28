@@ -16,12 +16,29 @@ GIT NOTES--
 * RENAME type "mv "file current name" "file new name"",STEP 2: type "git add "file old name"",
   STEP 3: type "git add "file new name"".
 * RENAME direct type "git mv "present name" "new name"", then Commit.
-* IGNORING SOME USELESS FILES,  to ignore remind and besure that you hadn't previously added it in any commit,if yes 
-  git will no longer will ignore it.
+* IGNORING SOME USELESS FILES,  brfore performing ignore ,remind and besure that you hadn't previously already added it as a "change/modification" in staging,if yes 
+  git will no longer will ignore it. and still you wanna do so then 1. type "git ls-files",
+  2. type "git rm --cached -r filename/" ,Done, this will only delete it from added area and it's done,3. now commit. 
   for ignoring a directory/driectories 1. type "echo filename/ >.gitignore",2. type  "code .gitignore", this 
   will open vscode save the dir you want to ignore. close vscode. 3. type git add .gitignore, Done.
 
 * ECHO USES- 1. type "echo andanything" ,for see the same thing.
              2. type "echo anything >"existing_filename.txt"",for adding anything in that txt file.
              3. type "echo anything>>"existing_filename.txt"",for appending anything in that file.   
-* 
+* STATUS for this type "git status" or type " git status -s".
+* log of ALL COMMIT type "git log", 2. if you need one line log type "git log --oneline".
+* SHOW ANY PARTICULAR COMMIT:For doing so, first see all commits via "git log --oneline",2. can type "git show "type its seven digit unique no. of the commit",Done,
+  3.can type " git show HEAD" , HEAD will point to very recent commit, 4. from there if you wanna any previous commit suppose it is two step back from HEAD 
+  type "git show HEAD~2",Done.(but remember it is 3rd recent commit not 2nd).
+* SHOW EVERYTHING IN THE COMMIT : instant Above code will also show the particular commit ,but will only show the differences or what got changed,
+  But when we need every data stored in that commit type "git ls-tree HEAD~2" this will show everything of 2nd previous commit from previous commit means 3rd last one.
+* WORK MECHANISM OF GIT: file in your directory then -> add means staging the changed files then -> final commit.
+* till now we know how to add from directory to staging,but how to redo the added one from staging to directory ,for doing so type ,first check status
+  by typing " git status -s" ,2. type "git restore --staged filenameWhichToRedoWithItsExtension",Done this will redo the add from staging to dir,but 
+  staging area is never remain empty, it will automatically get fill with the last version/commit of that particular file,if that file was no longer 
+  in the last version then only it(staging area) will remove that file.
+* CLEAN : git clean is very important and dangerous too learn about it very well before performing,it can clean untrached file ,and all dir too.
+* RESTORE TO PREVIOUS VERSION: this is the only MAIN reason we all are using GIT, to restore follow,1. delete any target file via "git rm file",
+  2.  commit,3. now to restore type " git restore --source=HEAD~1 fileNameWithExtension",4. commit.
+
+
