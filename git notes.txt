@@ -6,7 +6,7 @@ GIT NOTES--
 * ADD to add any file in git STEP1- type "git add "file name with its extension",
   hit space and type the name of the other file too HIT ENTER.
 * ADD you can use shortcuts forex- type "git add .txt" it will do for all .txt file of that git dir.
-
+* ADD type "git add .", here . means all the changes.
 * DEL for deletion simply delete the file physically from mouse etc then type " git add "deleted file name""
 * COMMIT for commit type git commit ,it will lead to the vscode give to give this commit a name etc, do that save that and close vscode,done!
 * more direct you can commit the modified file without ADDING it,type "git commit -a",here a for all,also u can
@@ -16,8 +16,12 @@ GIT NOTES--
 * RENAME type "mv "file current name" "file new name"",STEP 2: type "git add "file old name"",
   STEP 3: type "git add "file new name"".
 * RENAME direct type "git mv "present name" "new name"", then Commit.
-* IGNORING SOME USELESS FILES  to ignore remind and besure that you hadn't previously added it in any commit,if yes 
+* IGNORING SOME USELESS FILES,  to ignore remind and besure that you hadn't previously added it in any commit,if yes 
   git will no longer will ignore it.
+  for ignoring a directory/driectories 1. type "echo filename/ >.gitignore",2. type  "code .gitignore", this 
+  will open vscode save the dir you want to ignore. close vscode. 3. type git add .gitignore, Done.
+
 * ECHO USES- 1. type "echo andanything" ,for see the same thing.
              2. type "echo anything >"existing_filename.txt"",for adding anything in that txt file.
              3. type "echo anything>>"existing_filename.txt"",for appending anything in that file.   
+* 
