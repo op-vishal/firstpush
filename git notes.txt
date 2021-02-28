@@ -1,0 +1,10 @@
+GIT NOTES--
+
+* for help GIT Commands type in cmd  git config --help
+* git cheat sheat in pdf by mosh hamedani
+* to initialize any folder/dir with git just go to that dir through cmd and type "git init"
+* to add any file in git STEP1- type "git add "file name with its extension",
+  hit space and type the name of the other file too HIT ENTER.
+* you can use shortcuts forex- type "git add .txt" it will do for all .txt file of that git dir.
+
+* 
