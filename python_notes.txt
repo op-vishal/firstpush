@@ -1,4 +1,0 @@
-python notes
-
-import operator
-import numpy as np
