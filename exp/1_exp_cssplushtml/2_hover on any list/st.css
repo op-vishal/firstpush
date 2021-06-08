@@ -1,0 +1,18 @@
+
+
+.peta{
+	background-color:cyan;
+	border:2px solid black;
+	
+}
+
+.peta ul li
+{   width:50px;
+	border:2px solid black
+	
+}
+.peta ul li a:hover
+{   background-color:white;
+	color:red;
+	
+}

@@ -1,0 +1,28 @@
+.grid
+{
+	
+	display:grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 150px 300px 150px;
+  grid-gap: 10px;
+  background-color: #fff;
+  padding: 10px;
+	
+	
+}
+
+.grid div {
+	
+  background-color: #fff;
+  text-align: center;
+  
+  font-size: 30px;
+}
+
+
+/* FOR ADDING HOVER   */
+.grid div a:hover
+{
+	opacity:0.5;
+	
+}

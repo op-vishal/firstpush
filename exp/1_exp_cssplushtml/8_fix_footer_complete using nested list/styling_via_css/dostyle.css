@@ -1,0 +1,66 @@
+/* better option available ,go with side by side div for footer*/
+
+
+
+.foot
+{
+	position:fixed;
+	height:250px;
+	bottom:0;
+	width:100%;
+	left:0;
+	
+	background-color:rgb(60,60,60);
+	color:#fff;
+	
+	
+	
+	
+}
+ul{
+    
+    text-align: center;
+	
+}
+
+.foot ul li
+{
+	margin-top:2%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:10%;
+	display:inline-block;
+	padding:5px 5px 5px 5px
+	
+	
+	
+	
+	
+	
+	
+}
+.foot ul li a
+{
+	color:#fff;
+	text-align: center;
+	text-decoration:none;
+	
+	
+}
+
+.foot ul li a:hover
+{
+	
+	color:red;
+	
+}
+.xyz
+{
+	
+	
+	height:150px;
+	width:120px;
+}
+
+
+

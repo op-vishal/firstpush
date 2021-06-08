@@ -1,0 +1,40 @@
+.menu
+{
+	position:fixed;
+	top:0;
+	right:0;
+	margin-right:8px;
+	
+	
+	height:7%;
+	background-color:orange;
+	width:99%;
+	
+}
+.menu ul{
+	float:right;
+	list-style-type:none;
+	margin-top:1%;
+}
+.menu ul li
+{
+	display:inline-block;
+	
+}
+.menu ul li a{
+	text-decoration:none;
+	padding:6px 25px;
+	border:2px;
+	transition:0.5s ease;
+	color:black;
+}
+.menu ul li a:hover
+{
+	background-color:#fff;
+	color:red;
+}
+.menu ul li.pehlesehi a
+{
+	background-color:#fff;
+	color:black;
+}

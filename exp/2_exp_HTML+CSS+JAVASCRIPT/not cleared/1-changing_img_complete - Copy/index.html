@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styling_via_css\dostyle.css">
+   <script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+          }
+
+
+        /*
+          function startTimer() {
+              setInterval(displayNextImage, 3000);
+          } 
+		 
+		*/ 
+		  
+		  
+		  function slide(x) 
+		  {
+		    document.getElementById("img").src = images[x];
+		  
+		  }
+
+          var images = [], x = -1;
+          images[0] = "p3.jpg";
+          images[1] = "p4.jpg";
+          images[2] = "p5.jpg";
+		  images[3] = "p6.jpg";
+          images[4] = "p7.jpg";
+          images[5] = "p8.jpg";
+		  images[6] = "p9.jpg";
+          images[7] = "p10.jpg";
+          images[8] = "p11.jpg";
+      </script>
+<title>
+  
+</title>
+</head>
+
+ <body <!-- onload = "startTimer()"-->  >
+<div class="all">
+     
+   <div class="auto">
+       <img id="img" src="p3.jpg">
+	  
+	   
+	   
+	 
+	   
+       <div>
+	 
+	 
+	 <!-- &#10094; and &#10095; is for creating arrow symbol in next-prev button-->
+	 
+      <a class="prev" onclick="displayPreviousImage()">&#10094;</a>
+      <a class="next" onclick="displayNextImage()">&#10095;</a>
+       </div>
+      
+	   
+	   
+  
+        <div style="text-align:center">
+          <span  class="dot" onclick="slide(0)"></span> 
+          <span  class="dot" onclick="slide(1)"></span> 
+          <span  class="dot" onclick="slide(2)"></span> 
+		  <span  class="dot" onclick="slide(3)"></span> 
+          <span  class="dot" onclick="slide(4)"></span> 
+          <span  class="dot" onclick="slide(5)"></span> 
+		  <span  class="dot" onclick="slide(6)"></span> 
+          <span  class="dot" onclick="slide(7)"></span> 
+          <span  class="dot" onclick="slide(8)"></span> 
+       </div>
+  </div>  
+</div>
+   </body>
+</html>

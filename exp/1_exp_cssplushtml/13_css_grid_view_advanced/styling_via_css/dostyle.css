@@ -1,0 +1,36 @@
+.grid
+{
+	
+	display:grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 180px 280px 130px;
+  grid-gap: 10px;
+  background-color: #fff;
+  padding: 10px;
+	
+	
+}
+
+.grid div {
+	
+  background-color: #fff;
+  text-align: center;
+  
+  font-size: 30px;
+}
+.grid div a:hover
+{
+	opacity:0.5;
+	
+}
+.i
+{
+	grid-row:1/span 3;
+	grid-column:1;
+}
+.iiiii
+{
+	grid-row:2/span 3;
+	grid-column:3;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styling_via_css\dostyle.css">
+   <script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 3000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "p3.jpg";
+          images[1] = "p4.jpg";
+          images[2] = "p5.jpg";
+      </script>
+<title>
+  
+</title>
+</head>
+
+ <body onload = "startTimer()">
+     
+	 <div class="auto">
+       <img id="img" src="p3.jpg">
+	   
+	   /* you can remove those button*/
+       <button type="button" onclick="displayPreviousImage()">Previous</button>
+       <button type="button" onclick="displayNextImage()">Next</button>
+	   
+	   
+	   
+	   </div>
+   </body>
+</html>

@@ -1,0 +1,57 @@
+
+.hell
+{
+
+ border:2px solid black;
+  
+  display: inline-block;
+ 
+
+
+  
+  height: 150px;
+  width: 150px;
+  background-color: cyan;
+  
+ 
+  
+
+}
+
+
+.hell2
+{
+border:2px solid black;
+  display: inline-block;
+  border-radius:50%;
+
+
+  
+  height: 150px;
+  width: 150px;
+  background-color: cyan;
+  
+ 
+  
+
+}
+
+
+
+.hell3
+{
+
+ border:2px solid black;
+  
+  border-radius:50%;
+
+
+  
+  height: 150px;
+  width: 150px;
+  background-color: cyan;
+  
+ 
+  
+
+}

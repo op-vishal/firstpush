@@ -1,0 +1,23 @@
+.p
+{
+	padding:26px 26px 26px 26px;
+	border:2px solid black;
+	width:300px;
+	float:left;
+	
+}
+ a:hover   /*it will add only border shadow ,it have no relation with translucency (opacity)of image*/
+{
+	-moz-box-shadow: 0 0 10px black;
+      -webkit-box-shadow: 0 0 10px black;
+      box-shadow: 0 0 10px black;
+	  
+	
+	
+}
+
+ a:hover   /* this is for translucency of the image ,it can also be used for permanant opacity, for doing
+ that use it directly on the class containing the image ,without using the hover*/
+{	
+ opacity: 0.5;
+}
