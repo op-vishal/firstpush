@@ -1,0 +1,7 @@
+git push commands.
+here directory name is somechanges.
+
+
+git remote add origin https://github.com/op-vishal/somechanges.git
+git branch -M main
+git push -u origin main

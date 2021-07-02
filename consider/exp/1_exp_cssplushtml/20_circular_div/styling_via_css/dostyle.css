@@ -1,0 +1,33 @@
+.c1{
+width:500px;
+height:500px;
+border:10px solid red;
+border-radius:50%;
+}
+
+.c2{
+width:500px;
+height:600px;
+border:10px solid red;
+border-radius:50%;
+}
+
+
+.c3{
+width:200px;
+height:500px;
+border:10px solid red;
+border-radius:50%;
+}
+
+.boss3{
+  display: table;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #f69c55;
+}
+span {
+  display: table-cell;
+  vertical-align: middle;
+}

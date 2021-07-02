@@ -1,0 +1,14 @@
+
+
+
+.boss3{
+  display: table;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #f69c55;
+}
+span {
+  display: table-cell;
+  vertical-align: middle;
+}
