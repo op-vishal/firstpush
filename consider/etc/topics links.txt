@@ -1,0 +1,1 @@
+1.camera access in react.js and much more  ----->https://itnext.io/accessing-the-webcam-with-javascript-and-react-33cbe92f49cb

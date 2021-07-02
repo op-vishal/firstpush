@@ -1,0 +1,17 @@
+imp in codes . .
+discoveries
+
+1)Python:string overcasting of list
+
+lst=[2,3,4]
+print("here is my list "+str(lst)+" of order 3")
+
+2)Python:print list without use loop.
+lst=[1,2,3]
+print(*lst)   
+print(*lst,sep",")  #it will print list items seperated by comma
+
+3)Python:print list without use loop.
+lst=[2,3,4]
+s=str(lst)
+print(s[1,-1])
